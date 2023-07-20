@@ -1,0 +1,113 @@
+/** Common Css */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #2F323A;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+/** Clock Container */
+
+#clock_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+/** Clock Inner Container */
+
+#clock_inner_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Hours */
+#hrs {
+  padding: 27px;
+  background-color: #e55039e1;
+  border-radius: 17px;
+  margin-right: 17px;
+  font-size: 4.8rem;
+}
+
+/** Minutes */
+#min {
+  padding: 27px;
+  background-color: #78e08fe1;
+  border-radius: 17px;
+  margin-right: 17px;
+  font-size: 4.8rem;
+}
+
+/** Seconds */
+#sec {
+  padding: 27px;
+  background-color: #f6b83be5;
+  border-radius: 17px;
+  font-size: 4.8rem;
+}
+
+/** Am Pm Area */
+
+#amPm {
+  padding: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background: #74b9ff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 23%;
+  display: none;
+}
+
+/** Clock Bottom Area */
+
+#clock_bottom_area {
+  display: flex;
+  background: rgba(52, 73, 94, 0.3);
+  padding: 10px 0;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  color: #96a1a5;
+  font-size: 19px
+}
+
+#week {
+  margin-left: 35px;
+}
+
+#format {
+  margin-right: 35px;
+}
+
+/** Format Change Button */
+
+#formatChangeBtn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 8px 13px;
+  font-size: 18px;
+  background: #d63031;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#formatChangeBtn:hover {
+  background: #ff7675;
+  transition: all 0.4s ease;
+}
