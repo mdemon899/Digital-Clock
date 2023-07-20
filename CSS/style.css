@@ -81,7 +81,6 @@ body {
   align-items: center;
   color: #96a1a5;
   font-size: 19px;
-  cursor: pointer;
 }
 
 #week {
@@ -106,6 +105,7 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 #formatChangeBtn:hover {
